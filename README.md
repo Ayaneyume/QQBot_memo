@@ -1,6 +1,6 @@
 # QQBOT备忘
 
-注意：部署的是**自用**目的的公主连结机器人。
+注意：部署bot为公主连结机器人。
 采用`NTQQ`+`Trss-Yunzai`+`ws-plugin`来代替`go-cqhttp`
 由于`qsign`已经快失效，使用`go-cqhttp`有很大概率出现冻结或永久风控。本篇记录采用`NTQQ`+`Liteloader`（利用Chronocat插件作为服务端）的方式在Windows服务器上成功部署可同时运行`yunzai`&` hoshino`& `yobot`。
 本次部署使用目前最新可用`Liteloader`的`QQNT（16183版本）`以便使用Chronocat。
