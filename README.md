@@ -81,7 +81,7 @@ git clone --depth=1 -b red https://gitee.com/xiaoye12123/ws-plugin.git ./plugins
 pnpm install --filter=ws-plugin
 ```
 
-**第五步：配置ws-plugin以便连接NTQQ和其他BOT。**
+**第七步：配置ws-plugin以便连接NTQQ和其他BOT。**
 
 在 C:\Users\Administrator\\.chronocat\config\chronocat.yml 中可以找到Chronocat的red协议端口（默认端口16530）和token，将其记住。然后打开 Yunzai目录/plugins/ws-plugin/config/default_config/ws-config.yaml，新增如下配置并保存:
 ```
